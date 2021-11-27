@@ -1,0 +1,5 @@
+# ID-S10227853A-Chua Cheng Xuan-Assg1-Personal Portfolio
+For my ID Assignment 1, I decided to go with "Project Example Idea 2", which tasks me to build/create a personal portfolio website specifically for myself. Since one of the main goals of having a personal portfolio website is mainly for recruiters to hire me as an applicant, I must present my portfolio website with attracting visuals and contents about me. Therefore, I will then have a higher chance of getting hired from the recruiters who viewed my website.
+
+To start of, I choose to design my website's overall color theme (including the fonts), using a mix of semi-dark red, black and white. With those mix of colors, my personal portfolio website will not look plain and boring. Instead it will look much more visually appealing and modernised. From the first page of my website, it consists of the main title of the website namely "My Personal Portfolio". There is also a navigation menu which aids the users to explore my website with convenience. Not only that, but the navigation menu's display will also adapt to suit mobile users, making it an overall user-friendly website for all my users.
+
