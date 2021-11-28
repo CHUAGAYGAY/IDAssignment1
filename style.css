@@ -115,7 +115,7 @@ html{
     height: 45px;
     width: 42px;
     background: rgb(141, 4, 31);
-    right: 35px;
+    right: 33px;
     bottom: 20px;
     text-align: center;
     line-height: 47px;
@@ -137,7 +137,7 @@ html{
 }
 
 .scrollup-btn.work{
-    bottom: 55px;
+    bottom: 80px;
     opacity: 1;
     pointer-events: auto;
 }
@@ -202,7 +202,7 @@ section{
     padding: 100px 0;
 }
 
-.about, .skill, .award, .contact{
+.about, .skill, .award, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -597,7 +597,7 @@ section .title::after{
 
 /* Contact Section */
 .contact .title::after{
-    content: "Hello";
+    content: "Say Hi";
 }
 
 .contact .title{
@@ -728,6 +728,14 @@ section .title::after{
 ::placeholder{
     color: rgb(110, 4, 4);
 }
+
+/*----------------------------------------------------------- Footer Section -------------------------------------------------------------*/
+footer{
+    background: rgb(95, 8, 8);
+    padding: 21px 35px;
+    color: whitesmoke
+}
+
 
 /* .alert-success{
     z-index: 0;
