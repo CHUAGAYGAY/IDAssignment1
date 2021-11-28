@@ -6,12 +6,13 @@ The next page would be "My Education", which as the name suggests, displays my e
 ## Design Process
 For my ID Assignment 1, I decided to go with "Project Example Idea 2", which tasks me to build/create a personal portfolio website specifically for myself. Since one of the main goals of having a personal portfolio website is mainly for recruiters to hire me as an applicant, I must present my portfolio website with visually appealing visuals and contents about me. Furthermore, the website must also be optimized for mobile-users. Therefore, I will then have a higher chance of getting hired from the recruiters who viewed my website.
 While I was brainstorming ideas, I tried to look from the perspective of the users/recruiters who are using my website, such as:
+
 **User Stories**
 - As a user/recruiter, I want to know about the purpose of this website clearly with no confusion.
 - As a user/recruiter, I would want to contact the creater of this website without any hassle.
 - As a user/recruiter, I would want to be able to navigate through the website with ease.
 - As a user/recruiter, I would like the contents of the website to be intelligible with no difficulty in reading.
-- As a user/recruiter, I would want the website to be compatible for all devices. (e.g Mobile-Friendly)
+- As a user/recruiter, I would want the website to be compatible for all devices. (e.g Mobile-Friendly).
 
 ## Features
 **Current Working Features**
@@ -26,7 +27,7 @@ While I was brainstorming ideas, I tried to look from the perspective of the use
 - Input Validation (Contact Me Page) - When users/recruiters wants to fill up the contact form from the "Contact Me" page, they must have a valid input on all of the required respective fields.
 
 **Features Left to Implement**
-- Clickable Social Media Icons - Users/recruiters will be able to click on the icons to navigate to any of my social media profile.
+- Clickable Social Media Icons - Users/recruiters will be able to click on the icons to navigate to any of my social media profile page.
 
 ## Technologies Used
 - [Google Fonts](https://fonts.google.com/)
@@ -40,13 +41,14 @@ While I was brainstorming ideas, I tried to look from the perspective of the use
 
 ## Testing
 **Website's Status**
+
 The website's main foundation, together with it's styles are all implemented successfully. So far, the website runs smoothly without any major problems. This can be said the same for how the website is working positively on multiple different screen sizes from both desktop and mobile.
 
 **Website's Known Bugs/Problem**
-- The icons that are implemented into the website using [Font Awesome](https://fontawesome.com/) might disappear sometimes.However, making a refresh on the website will solve this problem.
+- The icons that are implemented into the website using [Font Awesome](https://fontawesome.com/) might disappear sometimes. However, making a refresh on the website will solve this problem.
 
 ## Credits
-**# Media**
+**Media**
 - The background image used in the website (Home Page) was obtained from [Wallpaper Abyss](https://wall.alphacoders.com/).
 
 **Acknowledgements**
