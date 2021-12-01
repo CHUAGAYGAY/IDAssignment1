@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-----------------------------------------------------------------------------------------------CSS Stylesheets Reference---------------------------------------------------------------------------------->
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 
+    <!---->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -17,13 +19,13 @@
     <title>Personal Portfolio Website</title>
 </head>
 <body>
-    <!----------------------------------------------------------------Scrolling Up Button------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------------------------Scrolling Up Button--------------------------------------------------------------------------------------------->
     <div class="scrollup-btn">
         <i class="fas fa-angle-double-up"></i>
     </div>
 
 
-    <!------------------------------------------------------------------------------------------------Navigation Bar------------------------------------------------------------------------------------------------>
+    <!----------------------------------------------------------------------------------------------------Navigation Bar------------------------------------------------------------------------------------------------>
     <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">My Personal <span>Portfolio</span></a></div>
@@ -43,7 +45,7 @@
     </nav>
     
     
-    <!------------------------------------------------------------------------------------------- Home Section -------------------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------- Home Section -------------------------------------------------------------------------------------------------------->
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
@@ -56,7 +58,7 @@
     </section>
 
 
-    <!----------------------------------------------------------------------- About Me Section------------------------------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------- About Me Section------------------------------------------------------------------------------------------->
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">About <span>Me</span></h2>
@@ -65,15 +67,15 @@
                     <img src="images/IMG_20190309_190932.jpg" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">Know More About <span>ME</span></div>
-                    <p>Welcome to my personal Portfolio Website that invites you to explore and also getting to know about me. I am currently at the age of 19, studying IT in Ngee Ann Polytechnic. Keen and interested in IT related topics since young, I will always try my best to be open-minded and creative towards any assignment or situation given, so as to be able to hold my future within my grasp tightly. No matter what kind of difficulties/challenges are being faced, not just in school or in workplaces, looking forward and trying my utmost best to overcome it is my top priority. Knowing teamwork is dreamwork, I will always make sure to get along with my peers, as I am aware that working together will be the key for any projects or group work given to me.</p>
+                    <div class="text">Know More About <span>Me</span></div>
+                    <p>Welcome to my personal Portfolio Website that invites you to explore and also getting to know about me. I am currently at the age of 19, studying IT in Ngee Ann Polytechnic. Keen and interested in IT related topics since young, I will always try my best to be open-minded and creative towards any assignment or situation given. No matter what kind of difficulties/challenges are being faced, not just in school or in workplaces, looking forward and trying my utmost best to overcome it is my top priority. Knowing teamwork is dreamwork, I will always make sure to get along with my peers, as I am aware that working together will be the key for any projects or group work given to me.</p>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <!-------------------------------------------------------------------------------------------- Education Section ------------------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------------------- Education Section ------------------------------------------------------------------------------------------------>
     <section class="education" id="education">
         <h2 class="heading"> My <span>Education</span> </h2>
         <div class="box-container">
@@ -107,7 +109,7 @@
     </section>
     
 
-    <!------------------------------------------------------------------------------------------------- Skill Section------------------------------------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------------------------------- Skills Section------------------------------------------------------------------------------------------------->
     <section class="skill" id="skill">
         <h2 class="title"> My <span>Skills</span> </h2>
         <div class="skill-content">
@@ -137,7 +139,7 @@
         </div>
     </section>
 
-    <!------------------------------------------------------------------------------------------------------ Award Section ------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------------------ Awards Section ------------------------------------------------------------------------------------------->
     <section class="award" id="award">
         <div class="max-width">
             <h2 class="title"> My <span>Awards</span></h2>
@@ -224,28 +226,23 @@
                 </div>
 
                 <div class="column right">
-                    <div class="text">Reach<span> Me </span></div>
-                    <form action="#">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" placeholder="Name?" required>
-                            </div>  
+                    <form onsubmit="event.preventDefault(); validateForm()">
+                        <h2>Reach<span> Me </span></h2>
+                        <label for="name">Name:</label> 
+                        <input type="text" id="name" placeholder="Your Name?">
+                        <small class="error"></small> 
 
-                            <div class="field email">
-                                <input type="email" placeholder="Email?" required>
-                            </div>
-                        </div>
+                        <label for="email">Email:</label> 
+                        <input type="text" id="email" placeholder="Your Email Address?">
+                        <small class="error"></small> 
 
-                        <div class="field">
-                            <input type="text" placeholder="Subject?" required>
-                        </div>
+                        <label for="message">Message:</label> 
+                        <textarea id="message" placeholder="Leave A Message Here..." rows="5"></textarea>
+                        <small class="error"></small> 
 
-                        <div class="field message">
-                            <textarea cols="40" rows="20" placeholder="Message?" required></textarea>
-                        </div>
-
-                        <div class="button">
-                            <button type="submit">Send</button>
+                        <div class="submit-btn">
+                            <input type="submit" value="Send">
+                            <p id="success"></p>
                         </div>
                     </form>
                 </div>
@@ -256,11 +253,12 @@
     <!--------------------------------------- Footer Section------------------------------------------>
     <footer>
         <span>Copyright <span class="far fa-copyright"></span> 2021 Chua Cheng Xuan. All Rights Reserved.</span>
+        <a href="https://sg.linkedin.com/in/chua-cheng-xuan-2a1721211"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/CHUAGAYGAY"><i3 class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/changxunchuas/"><i2 class="fab fa-instagram"></i></a>
     </footer>
-
-
-
+    
     <script src="script.js"></script>
 
 </body>
-</html>
+</html> 
