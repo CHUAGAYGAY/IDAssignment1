@@ -15,7 +15,8 @@ While I was brainstorming ideas, I tried to look from the perspective of the use
 - As a user/recruiter, I would want the website to be compatible for all devices. (e.g Mobile-Friendly).
 
 **Wireframe**
-Link: [Shared Link for my Wireframe](https://xd.adobe.com/view/16671b18-e2b5-4770-b211-f0a5d64f3787-4334/)
+
+You can have a quick look at my Wireframe [Right Here](https://xd.adobe.com/view/16671b18-e2b5-4770-b211-f0a5d64f3787-4334/)
 
 ## Features
 **Current Working Features**
