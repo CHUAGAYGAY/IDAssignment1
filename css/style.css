@@ -172,7 +172,7 @@ html{
 /* ------------------------------------------------------------------------------------------------------Home Section ------------------------------------------------------------------------------------------------- */
 .home{
     display: flex;
-    background: url(../images/Background.jpg) no-repeat center;
+    background: url(/images/Background.jpg) no-repeat center;
     height: 100vh;
     color: whitesmoke;
     min-height: 500px;
