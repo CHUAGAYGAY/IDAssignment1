@@ -16,7 +16,7 @@ While I was brainstorming ideas, I tried to look from the perspective of the use
 
 **Wireframe**
 
-You can have a quick look at my Wireframe [Right Here](https://xd.adobe.com/view/16671b18-e2b5-4770-b211-f0a5d64f3787-4334/)
+Link to have a quick look at my wireframe for my Assignment 1 [right here.](https://xd.adobe.com/view/16671b18-e2b5-4770-b211-f0a5d64f3787-4334/)
 
 ## Features
 **Current Working Features**
