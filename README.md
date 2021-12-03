@@ -51,6 +51,7 @@ Link: [Shared Link for my Wireframe](https://xd.adobe.com/view/16671b18-e2b5-477
     - Try to submit the contact form by leaving the fields empty, and verify that an error message will be prompted to indicate the empty fields
     - Try to submit the contact form with an invalid email address, and verify that a relevant error message will be prompted for the invalid email address
     - Try to submit the contact form with all inputs being valid, and verify that a success message prompts
+    
 The website's main foundation, together with it's styles are all implemented successfully. So far, the website runs smoothly without any major problems. This can be said the same for how the website is working positively on multiple different screen sizes from both desktop and mobile.
 
 **Website's Known Bugs/Problem**
