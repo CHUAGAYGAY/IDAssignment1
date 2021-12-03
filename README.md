@@ -9,10 +9,13 @@ While I was brainstorming ideas, I tried to look from the perspective of the use
 
 **User Stories**
 - As a user/recruiter, I want to know about the purpose of this website clearly with no confusion.
-- As a user/recruiter, I would want to contact the creater of this website without any hassle.
+- As a user/recruiter, I would want to contact the creater of this website using the contact form from the "Contact Me" Page.
 - As a user/recruiter, I would want to be able to navigate through the website with ease.
 - As a user/recruiter, I would like the contents of the website to be intelligible with no difficulty in reading.
 - As a user/recruiter, I would want the website to be compatible for all devices. (e.g Mobile-Friendly).
+
+**Wireframe**
+Link: [Shared Link for my Wireframe](https://xd.adobe.com/view/16671b18-e2b5-4770-b211-f0a5d64f3787-4334/)
 
 ## Features
 **Current Working Features**
@@ -43,7 +46,11 @@ While I was brainstorming ideas, I tried to look from the perspective of the use
 
 ## Testing
 **Website's Status**
-
+1. Contact Form:
+    - Navigate to the "Contact Me" Page
+    - Try to submit the contact form by leaving the fields empty, and verify that an error message will be prompted to indicate the empty fields
+    - Try to submit the contact form with an invalid email address, and verify that a relevant error message will be prompted for the invalid email address
+    - Try to submit the contact form with all inputs being valid, and verify that a success message prompts
 The website's main foundation, together with it's styles are all implemented successfully. So far, the website runs smoothly without any major problems. This can be said the same for how the website is working positively on multiple different screen sizes from both desktop and mobile.
 
 **Website's Known Bugs/Problem**

@@ -51,7 +51,6 @@ $(document).ready(function(){
         loop: true
         
     });
-
     let types = new Typed(".type2", {
         strings: ["Ngee Ann Polytechnic", "The School of ICT", "Singapore"],
         typeSpeed: 70,
@@ -65,6 +64,7 @@ $(document).ready(function(){
         $('html, body').animate({scrollTop: 0}, "fast");
     });
 });
+
 
 // Contact Form Input Data
 const nameInput = document.querySelector("#name");

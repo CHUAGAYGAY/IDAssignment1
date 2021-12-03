@@ -823,7 +823,7 @@ footer i:hover{
 }
 
 footer i2{
-    padding-left: 12px;
+    padding-left: 16px;
     color: rgb(226, 226, 226);
     font-size: 25px;  
     transition: all 0.5s ease;  
@@ -835,7 +835,7 @@ footer i2:hover{
 }
 
 footer i3{
-    padding-left: 12px;
+    padding-left: 16px;
     color: rgb(226, 226, 226);
     font-size: 25px;  
     transition: all 0.5s ease;  
